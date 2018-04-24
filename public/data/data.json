@@ -1,0 +1,131 @@
+[
+	{
+		"id": 0,
+		"name": "Day 1",
+		"search":"travel",
+		"found":"realization",
+		"imageURL": "https://media.giphy.com/media/5qFZ7TNV2lOSsFeu2N/giphy.gif",
+		"objectSeen": ["cars", "view", "train"]
+	},
+	{
+		"id": 1,
+		"name": "Day 2",
+		"search":"answers",
+		"found":"50-inch screen",
+		"imageURL": "https://media.giphy.com/media/9V6ZYYxb4TGeKRfklL/giphy.gif",
+		"objectSeen": ["human", "laptops", "tables"]
+	},
+	{
+		"id": 2,
+		"name": "Day 3",
+		"search":"family time",
+		"found":"New Jersey",
+		"imageURL": "https://media.giphy.com/media/t6IoBWmIoDRvEhg0x4/giphy.gif",
+		"objectSeen": [
+			"bridge",
+			"cars",
+			"view"
+		]
+	},
+	{
+		"id": 3,
+		"name": "Day 4",
+		"search":"wonder",
+		"found":"team",
+		"imageURL": "https://media.giphy.com/media/8JNoOwMG9c9HhoTDcd/giphy.gif",
+		"objectSeen": ["whiteboard", "human", "ITP"]
+	},
+	{
+		"id": 4,
+		"name": "Day 5",
+		"search":"resilience",
+		"found":"midtown manhattan",
+		"imageURL": "https://media.giphy.com/media/1fmBywsUzlPgaks94k/giphy.gif",
+		"objectSeen": [
+			"view",
+			"buildings",
+			"window"
+		]
+	},
+	{
+		"id": 5,
+		"name": "Day 6",
+		"search":"happiness",
+		"found":"ice cream",
+		"imageURL": "https://media.giphy.com/media/1QacNiOEQSH4fr029x/giphy.gif",
+		"objectSeen": ["truck","food","human"]
+	},
+	{
+		"id": 6,
+		"name": "Day 7",
+		"search":"focus",
+		"found":"defeat",
+		"imageURL": "https://media.giphy.com/media/cXVeHEzYJCkfqP9UKx/giphy.gif",
+		"objectSeen": ["window", "ceiling", "human"]
+	},
+	{
+		"id": 7,
+		"name": "Day 8",
+		"search":"temp goodbyes",
+		"found":"subway art",
+		"imageURL": "https://media.giphy.com/media/xUnn8wa2u7t9mAE0g3/giphy.gif",
+		"objectSeen": ["train", "art", "food"]
+	},
+	{
+		"id": 8,
+		"name": "Day 9",
+		"search":"breakfast",
+		"found":"full heart",
+		"imageURL": "https://media.giphy.com/media/dgwzgVSuwigTLg1g20/giphy.gif",
+		"objectSeen": ["food", "light", "human"]
+	},
+	{
+		"id": 9,
+		"name": "Day 10",
+		"search":"100 steps",
+		"found":"cherry blossoms",
+		"imageURL": "https://media.giphy.com/media/E1nccpID8mnlIuzn22/giphy.gif",
+		"objectSeen": ["bridge", "human", "shadow"]
+	},
+	{
+		"id": 10,
+		"name": "Day 11",
+		"search":"Avoid Crowd",
+		"found":"Bubble Tea",
+		"imageURL": "https://media.giphy.com/media/5jWIZHI78Em3wV55lt/giphy.gif",
+		"objectSeen": ["food", "ITP", "human"]
+	},
+	{
+		"id": 11,
+		"name": "Day 12",
+		"search":"Waker-upper",
+		"found":"Lost Purse",
+		"imageURL": "https://media.giphy.com/media/4EFfGalQPGkjVO8ww1/giphy.gif",
+		"objectSeen": ["food", "window", "plant"]
+	},
+	{
+		"id": 12,
+		"name": "Day 13",
+		"search":"Debugging",
+		"found":"Encouragement",
+		"imageURL": "https://media.giphy.com/media/t7jB4azcT0gxQWG9Rd/giphy.gif",
+		"objectSeen": ["train", "crowd", "light"]
+	},
+	{
+		"id": 13,
+		"name": "Day 14",
+		"search":"Sustainance",
+		"found":"Smile",
+		"imageURL": "https://media.giphy.com/media/nbjWhmqfCRA72rpamw/giphy.gif",
+		"objectSeen": ["food", "machine", "human"]
+	},
+	{
+		"id": 14,
+		"name": "Day 15",
+		"search":"Catch up",
+		"found":"Filipino Dessert",
+		"imageURL": "https://media.giphy.com/media/AS6id3Ok4ub1uNSFPq/giphy.gif",
+		"objectSeen": ["food", "human", "talk"]
+	}
+
+]

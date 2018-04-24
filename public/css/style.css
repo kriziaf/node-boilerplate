@@ -1,3 +1,245 @@
 /**************/
-/* Custom CSS */
+/* Custom CSS
+
+dark blue - 191F58
+pink - f3d4ea
+purple - 9389c3
+green - 1dB9AD
+red - f1635e
+orange - fadcca
+dark orange - F85517
+
+*/
 /**************/
+
+body {
+    height:100vh;
+    background-color: #fadcca;
+    font-family: 'Miriam Libre', sans-serif;
+    color: #191F58;
+}
+
+a {
+  color: #191F58;
+  text-decoration: underline;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    text-align: left;
+
+}
+
+h3 {
+    font-size: 28px;
+  	text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+h4 {
+  font-size: 16px;
+  text-align: right;
+  font-family: 'Miriam Libre', sans-serif;
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+
+    border: 1px solid #191F58;
+    background-color: #fadcca;
+    color: #191F58;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input {
+  max-width: 130%;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+canvas{
+	/* margin: 0 auto; */
+  margin-top: 10px;
+  display: block;
+}
+
+.spacer {
+  height: 100px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 64px 32px;
+}
+
+.clear-fix {
+	clear: both;
+}
+
+/* .title span {
+    font-family: 'Jua', sans-serif;
+} */
+
+#cardHolder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#videoHolder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 0 40px 0;
+    justify-content: left;
+}
+
+.videoFrame {
+    height: 90px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.card {
+    /* background: #f3d4ea; */
+    display: none;
+    border: 1px solid #191F58;
+    max-width: 360px;
+    min-width: 320px;
+    margin-right: 16px;
+    margin-top: 16px;
+    padding: 16px;
+    align-items: center;
+}
+
+.border {
+    border-bottom: 1px solid #191F58;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.header img {
+    border-radius: 100px;
+    width: 200px;
+    text-align: left;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px 0;
+    align-items: center;
+}
+
+.statsHolder {
+    text-align: center;
+}
+
+.regularFont {
+    font-size: 18px;
+}
+
+.largeFont {
+    font-size: 36px;
+}
+
+.subtext {
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.rating {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  align-items: center;
+}
+
+.barChart {
+    flex-basis: 60%;
+    height: 8px;
+    background-color: f3d4ea;
+    border: 1px solid #191F58;
+    position: relative;
+}
+
+.bar {
+    height: 8px;
+    background-color: #191F58;
+    position: absolute;
+    width: 80%;
+}
+
+.ratingViz {
+    flex-basis: 30%;
+    margin-left: 12px;
+    justify-content: center;
+    text-align: center;
+}
+
+.tagList {
+    padding: 16px 0 8px;
+}
+
+.heading {
+    font-size: 12px;
+    color: rgba(35,47,91,0.50);
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tagHolder {
+    align-items: center;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tag {
+    font-size: 10px;
+    text-align: center;
+    border-radius: 100px;
+    letter-spacing: 1.5px;
+    background-color: #191F58;
+    color: #f3d4ea;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 0 6px;
+}
+
+.color-holder {
+  width: 100%;
+  height: 10px;
+}
+
+.colorScheme {
+
+}
+
+
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 60px;
+    }
+}
