@@ -30,9 +30,9 @@
 	{
 		"id": 3,
 		"name": "Day 4",
-		"search":"wonder",
-		"found":"team",
-		"imageURL": "https://media.giphy.com/media/8JNoOwMG9c9HhoTDcd/giphy.gif",
+		"search":"curious ideas",
+		"found":"wild team",
+		"imageURL": "https://media.giphy.com/media/Ahw92HhcrnD9l7cdxQ/giphy.gif",
 		"objectSeen": ["whiteboard", "human", "ITP"]
 	},
 	{
@@ -90,8 +90,8 @@
 	{
 		"id": 10,
 		"name": "Day 11",
-		"search":"Avoid Crowd",
-		"found":"Bubble Tea",
+		"search":"avoid crowd",
+		"found":"bubble tea",
 		"imageURL": "https://media.giphy.com/media/5jWIZHI78Em3wV55lt/giphy.gif",
 		"objectSeen": ["food", "ITP", "human"]
 	},
@@ -114,8 +114,8 @@
 	{
 		"id": 13,
 		"name": "Day 14",
-		"search":"Sustainance",
-		"found":"Smile",
+		"search":"Sustenance",
+		"found":"Smile from a Stranger",
 		"imageURL": "https://media.giphy.com/media/nbjWhmqfCRA72rpamw/giphy.gif",
 		"objectSeen": ["food", "machine", "human"]
 	},
