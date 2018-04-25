@@ -17,7 +17,7 @@
       <!-- https://stackoverflow.com/questions/10326950/render-a-variable-as-html-in-ejs -->
       <% for (var i = 0; i < submissions_on_page.length; i++) { %>
       <%      var fontSize = Math.floor(Math.random() * 80) + 10; %>
-      <div style="font-size: <%- fontSize %>px"> <%= submissions_on_page[i]; %>
+      <div style="font-size: <%- fontSize %>px"> <%= submissions_on_page[i].response1; %>
       </div>
       <% } %>
       <p><a href='/form.html'>submit new observation</a></p>
