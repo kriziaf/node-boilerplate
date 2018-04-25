@@ -67,8 +67,8 @@ function buildDoughnutChart1(){
 
 		var data = {
 				labels: [
-						"yes",
-						"no"
+						"no",
+						"yes"
 				],
 				datasets: [{
 								data: [3, 12],
@@ -174,7 +174,7 @@ function buildBarChart(){
 			var options = {
 						title: {
 			            display: true,
-			            text: 'How many times objects were tagged'
+			            text: 'Top 10 machine-readable data'
 			      },
 		        tooltips: {
 		            backgroundColor: '#191F58'

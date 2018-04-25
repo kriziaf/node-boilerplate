@@ -28,6 +28,7 @@ h1 {
     font-size: 50px;
     line-height: 1.1;
     text-align: left;
+    margin-bottom: 20px;
 
 }
 
@@ -42,6 +43,16 @@ h4 {
   text-align: right;
   font-family: 'Miriam Libre', sans-serif;
 
+}
+
+button {
+  border: 1px solid #191F58;
+  background-color: #fadcca;
+  color: #191F58;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
 }
 input[type=button], input[type=submit], input[type=reset] {
 
@@ -73,6 +84,7 @@ canvas{
     max-width: 1140px;
     margin: 0 auto;
     padding: 64px 32px;
+
 }
 
 .clear-fix {
@@ -83,6 +95,12 @@ canvas{
     font-family: 'Jua', sans-serif;
 } */
 
+#wordcloud {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #cardHolder {
     display: flex;
     flex-direction: row;

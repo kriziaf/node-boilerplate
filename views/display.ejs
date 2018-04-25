@@ -11,6 +11,10 @@
 <body>
     <div class="container">
       <div><h2>Spectating...</h2></div>
+      <div>
+        <h4><a href='/form.html'>Submit New Observation</a></h4>
+        <h4><a href="index.html">Back to Home</a></h4>
+      </div>
 
       <!-- // use <% %> tags for embedded JS -->
       <!-- handy-dandy ejs syntax notes -->
@@ -19,12 +23,11 @@
       <%      var fontSize = Math.floor(Math.random() * 80) + 10; %>
       <div style="font-size: <%- fontSize %>px"> <%= submissions_on_page[i].response1; %>
       </div>
-      <% } %>
-      <p><a href='/form.html'>submit new observation</a></p>
-      <div>
-        <a href="index.html">Back to Home</a>
-        <a href="form.html">Enter Data</a>
+      <div id="wordcloud" style="font-size: <%- fontSize %>px"> <%= submissions_on_page[i].response2; %>
       </div>
+      <% } %>
+
+
 
     </div>
 
